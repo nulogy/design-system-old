@@ -42,3 +42,27 @@ a:visited {
 a:hover {
   color: #1C68A5;
 }
+
+.github {
+ margin-top: 6rem;
+}
+
+.github__link {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  opacity: 0.1;
+  background-size: contain;
+  background-image: url("../images/Octicons-mark-github.svg");
+}
+.github__link:hover {
+  opacity: 0.2;
+}
+
+.github__hide {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
