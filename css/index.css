@@ -12,6 +12,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.25;
   text-align: center;
+  margin: 0;
 }
 
 h1,
@@ -43,6 +44,14 @@ a:visited {
 
 a:hover {
   color: #1C68A5;
+}
+
+.billboard {
+  height: 100vh;
+  max-height: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .github {
