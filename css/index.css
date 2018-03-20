@@ -29,18 +29,11 @@ p {
 }
 
 h1 {
-  background: url("../images/nulogy_mark.svg") center top / 18rem no-repeat;
-  padding-top: 22rem;
-  color: var(--colour_blue1);
   font-size: 6.4rem;
 }
 
 h2 {
-  color: var(--colour_yellow);
-  font-size: 2.62rem;
-  font-weight: normal;
-  line-height: 3rem;
-  margin-top: 3rem;
+  font-size: 3.2;
 }
 
 a,
@@ -63,8 +56,22 @@ a:hover {
   max-height: 80rem;
 }
 
+.billboard__heading {
+  background: url("../images/nulogy_mark.svg") center top / 18rem no-repeat;
+  padding-top: 22rem;
+  color: var(--colour_blue1);
+}
+
+.billboard__subheading {
+  color: var(--colour_yellow);
+  font-size: 2.62rem;
+  font-weight: normal;
+  line-height: 3rem;
+  margin-top: 3rem;
+}
+
 .github {
- margin-top: 6rem;
+  margin-top: 6rem;
 }
 
 .github__link {
