@@ -22,6 +22,8 @@ p {
 }
 
 h1 {
+  background: url("../images/nulogy_mark.svg") center top / 18rem no-repeat;
+  padding-top: 22rem;
   color: #0E77D2;
   font-size: 6.4rem;
 }
