@@ -11,8 +11,8 @@ body {
   font-family: 'Rubik', sans-serif;
   font-size: 1.6rem;
   line-height: 1.25;
-  text-align: center;
   margin: 0;
+  text-align: center;
 }
 
 h1,
@@ -29,9 +29,9 @@ h1 {
 h2 {
   color: #F0B41C;
   font-size: 2.62rem;
+  font-weight: normal;
   line-height: 3rem;
   margin-top: 3rem;
-  font-weight: normal;
 }
 
 a,
@@ -47,11 +47,11 @@ a:hover {
 }
 
 .billboard {
-  height: 100vh;
-  max-height: 80rem;
-  display: flex;
   align-items: center;
+  display: flex;
+  height: 100vh;
   justify-content: center;
+  max-height: 80rem;
 }
 
 .github {
@@ -59,21 +59,21 @@ a:hover {
 }
 
 .github__link {
+  background-image: url("../images/Octicons-mark-github.svg");
+  background-size: contain;
   display: inline-block;
-  width: 4rem;
   height: 4rem;
   opacity: 0.1;
-  background-size: contain;
-  background-image: url("../images/Octicons-mark-github.svg");
+  width: 4rem;
 }
 .github__link:hover {
   opacity: 0.2;
 }
 
 .github__hide {
-  position: absolute !important;
-  height: 1px; width: 1px;
-  overflow: hidden;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
+  height: 1px; width: 1px;
+  overflow: hidden;
+  position: absolute !important;
 }
