@@ -8,7 +8,7 @@
 
 html {
   background-size: cover;
-  background: linear-gradient(#FFF, var(--colour_grey1));
+  background: linear-gradient(var(--colour_grey1), #FFF);
   font-size: 10px;
   height: 100%;
 }
