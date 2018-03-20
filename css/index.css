@@ -1,12 +1,20 @@
+:root {
+  --colour_primary: #58595b;
+  --colour_grey1: #F3F1F2;
+  --colour_blue1: #0E77D2;
+  --colour_blue2: #1C68A5;
+  --colour_yellow: #F0B41C;
+}
+
 html {
   background-size: cover;
-  background: linear-gradient(#FFF, #F3F1F2);
+  background: linear-gradient(#FFF, var(--colour_grey1));
   font-size: 10px;
   height: 100%;
 }
 
 body {
-  color: #58595b;
+  color: var(--colour_primary);
   font-family: 'Rubik', sans-serif;
   font-size: 1.6rem;
   line-height: 1.25;
@@ -23,12 +31,12 @@ p {
 h1 {
   background: url("../images/nulogy_mark.svg") center top / 18rem no-repeat;
   padding-top: 22rem;
-  color: #0E77D2;
+  color: var(--colour_blue1);
   font-size: 6.4rem;
 }
 
 h2 {
-  color: #F0B41C;
+  color: var(--colour_yellow);
   font-size: 2.62rem;
   font-weight: normal;
   line-height: 3rem;
@@ -39,12 +47,12 @@ a,
 a:link,
 a:active,
 a:visited {
-  color: #0E77D2;
+  color: var(--colour__blue1);
   text-decoration: none;
 }
 
 a:hover {
-  color: #1C68A5;
+  color: var(--colour__blue2);
 }
 
 .billboard {
