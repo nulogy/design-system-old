@@ -1,6 +1,30 @@
+html {
+  background-color: red;
+  background-size: cover;
+  background: linear-gradient(#FFF, #F3F1F2);
+  font-size: 10px;
+  height: 100%;
+}
+
 body {
-  background-color: #F3F1F2;
   color: #58595b;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.25;
   text-align: center;
+}
+
+h1,
+h2 {
+  margin: 1.25em auto 0;
+}
+
+h1 {
+  color: #0E77D2;
+  font-size: 6.4rem;
+}
+
+h2 {
+  color: #F0B41C;
+  font-size: 3.2rem;
+  font-weight: normal;
 }
