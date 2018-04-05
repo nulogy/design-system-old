@@ -48,7 +48,7 @@ a:hover {
   color: var(--colour__blue2);
 }
 
-.billboard {
+.jumbotron {
   align-items: center;
   display: flex;
   height: 100vh;
@@ -56,13 +56,13 @@ a:hover {
   max-height: 80rem;
 }
 
-.billboard__heading {
+.jumbotron__heading {
   background: url("../images/nulogy_mark.svg") center top / 18rem no-repeat;
   padding-top: 22rem;
   color: var(--colour_blue1);
 }
 
-.billboard__subheading {
+.jumbotron__subheading {
   color: var(--colour_yellow);
   font-size: 2.62rem;
   font-weight: normal;
