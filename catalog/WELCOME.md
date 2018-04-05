@@ -1,5 +1,6 @@
 ```image
-src: catalog_logo.svg
+src: nulogy_mark.svg
+span: 2
 plain: true
 ```
 
