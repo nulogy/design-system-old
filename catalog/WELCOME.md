@@ -1,9 +1,3 @@
-```image
-src: nulogy_mark.svg
-span: 2
-plain: true
-```
-
 Hi!
 
 Welcome to your freshly set up Catalog. To get started immediately, check out the `catalog/` directory (or wherever you've set it up).
@@ -14,3 +8,9 @@ Welcome to your freshly set up Catalog. To get started immediately, check out th
 - `static/`: A directory with files that are served statically. For example the Catalog logo above.
 
 For more details about how to use Catalog, check out the [documentation](https://docs.catalog.style/).
+
+```image
+src: nulogy_mark.svg
+span: 1
+plain: true
+```
