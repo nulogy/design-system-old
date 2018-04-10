@@ -5,7 +5,7 @@ import { Catalog, pageLoader } from "catalog";
 const pages = [
   {
     path: "/",
-    title: "Read Me",
+    title: "Welcome",
     content: pageLoader(() => import("./README.md"))
   },
   {
