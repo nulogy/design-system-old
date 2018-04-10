@@ -1,5 +1,23 @@
+:root {
+  --colour_primary: #58595b;
+  --colour_grey1: #F3F1F2;
+  --colour_blue1: #0E77D2;
+  --colour_blue2: #1C68A5;
+  --colour_yellow: #F0B41C;
+}
+
+html {
+  background-size: cover;
+  background: linear-gradient(var(--colour_grey1), #FFF);
+  font-size: 10px;
+  height: 100%;
+}
+
 body {
+  color: var(--colour_primary);
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.25;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }

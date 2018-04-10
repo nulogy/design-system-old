@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Catalog, pageLoader } from "catalog";
+import nulogyLogoMark from "../images/nulogy_mark.svg";
 
 const pages = [
   {
@@ -27,7 +28,7 @@ const pages = [
 
 const config = {
   title: "Nulogy Design System",
-  logoSrc: "nulogy_mark.svg",
+  logoSrc: nulogyLogoMark,
   basePath: "/catalog",
   useBrowserHistory: true,
   theme: {
@@ -46,7 +47,11 @@ const config = {
   }
 }
 
-ReactDOM.render(
-  <Catalog {...config} pages={pages} />,
-  document.getElementById("catalog")
-);
+// ReactDOM.render(
+//   <Catalog {...config} pages={pages} />,
+//   document.getElementById("catalog")
+// );
+
+const NulogyCatalog = () => <Catalog {...config} pages={pages} />;
+
+export default NulogyCatalog;
