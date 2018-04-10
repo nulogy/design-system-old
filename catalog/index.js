@@ -9,9 +9,19 @@ const pages = [
     content: pageLoader(() => import("./README.md"))
   },
   {
-    path: "/principles",
-    title: "Design Principles",
-    content: pageLoader(() => import("./principles.md"))
+    title: "Foundation",
+    pages: [
+      {
+        path: "/foundation/principles",
+        title: "Design Principles",
+        content: pageLoader(() => import("./foundation/principles.md"))
+      },
+      {
+        path: "/foundation/personas",
+        title: "Our Users",
+        content: pageLoader(() => import("./foundation/personas.md"))
+      }
+    ]
   },
 ];
 
