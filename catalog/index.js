@@ -4,15 +4,15 @@ import { Catalog, pageLoader } from "catalog";
 
 const pages = [
   {
-    path: "/",
-    title: "Welcome",
-    content: pageLoader(() => import("./WELCOME.md"))
+    path: "/readme",
+    title: "Read Me",
+    content: pageLoader(() => import("./README.md"))
   },
   {
     path: "/other",
     title: "Other",
-    content: pageLoader(() => import("./WELCOME.md"))
-  }
+    content: pageLoader(() => import("./other.md"))
+  },
 ];
 
 const config = {
