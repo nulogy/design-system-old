@@ -28,6 +28,7 @@ const pages = [
 const config = {
   title: "Nulogy Design System",
   logoSrc: "nulogy_mark.svg",
+  basePath: "/catalog",
   useBrowserHistory: true,
   theme: {
     fontFamily: "'Rubik', serif",
