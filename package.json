@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "catalog start",
-    "build": "catalog build"
+    "build-catalog": "catalog build",
+    "build": "npm run build-catalog && rm -rf docs && mv catalog/build docs/"
   }
 }
