@@ -1,16 +1,12 @@
-Hi!
+# Modern Enterprise Design for
+# the Industrial Environment
 
-Welcome to your freshly set up Catalog. To get started immediately, check out the `catalog/` directory (or wherever you've set it up).
+[Nulogy](http://nulogy.com) is building a Design System to help us consolidate and modernize the UI of our products.
 
-- `README.md`: This Markdown document
-- `index.js`: The entry file to start Catalog. Change configuration and add pages here.
-- `index.html`: The HTML document which gets served. Usually there's no need to edit this unless for example you want to load a custom font.
-- `static/`: A directory with files that are served statically. For example the Catalog logo above.
+## Hiring
 
-For more details about how to use Catalog, check out the [documentation](https://docs.catalog.style/).
+We are looking to hire a [Design Ops Coach](https://boards.greenhouse.io/nulogy/jobs/4017600002#.WtZp6GRKhds). You don't have to be coach though, [get in touch](https://nulogy.com/about/careers/) if you're interested in working on our Design System.
 
-```image
-src: nulogy_mark.svg
-span: 1
-plain: true
-```
+## This is just the beginning
+
+There isn't much here now, but we want to be as transparent as possible as we develop our thinking so [Stay tuned](https://github.com/nulogy/design-system) for updates.
