@@ -9,6 +9,6 @@
   "scripts": {
     "start": "catalog start",
     "build-catalog": "catalog build",
-    "build": "npm run build-catalog && rm -rf docs && mv catalog/build docs/"
+    "build": "npm run build-catalog && rm -rf docs && echo '  moving build output to `docs/` folder for deploy to Github Pages' && echo '> mv catalog/build docs/' && mv catalog/build docs/"
   }
 }
