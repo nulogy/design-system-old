@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { Catalog, pageLoader } from "catalog";
 import nulogyLogoMark from "../images/nulogy_mark.svg";
 
@@ -7,7 +6,7 @@ const pages = [
   {
     path: "/",
     title: "Welcome",
-    content: pageLoader(() => import("./README.md"))
+    content: pageLoader(() => import("./README"))
   },
   {
     title: "Foundation",
@@ -15,12 +14,12 @@ const pages = [
       {
         path: "/foundation/principles",
         title: "Design Principles",
-        content: pageLoader(() => import("./foundation/principles.md"))
+        content: pageLoader(() => import("./foundation/principles.js"))
       },
       {
         path: "/foundation/personas",
         title: "Our Users",
-        content: pageLoader(() => import("./foundation/personas.md"))
+        content: pageLoader(() => import("./foundation/personas.js"))
       }
     ]
   },
