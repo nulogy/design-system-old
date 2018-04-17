@@ -16,12 +16,12 @@ a,
 a:link,
 a:active,
 a:visited {
-  color: var(--colour__blue1);
-  /* text-decoration: none; */
+  color: var(--colour_blue2);
+  text-decoration: none;
 }
 
 a:hover {
-  color: var(--colour__blue2);
+  color: var(--colour_blue1);
 }
 
 .App {
@@ -64,6 +64,19 @@ a:hover {
 }
 .github__link:hover {
   opacity: 0.2;
+}
+
+.button__Big {
+  display: inline-block;
+  border: 2px solid;
+  border-radius: .6rem;
+  padding: 1.5rem 4rem;
+  text-decoration: none;
+}
+
+.button__Big:hover {
+  color: white;
+  background-color: var(--colour_blue1);
 }
 
 .hidden {
