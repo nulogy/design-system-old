@@ -8,7 +8,7 @@ module.exports = {
       output: {
         ...catalogWebpackConfig.output,
         path: path.resolve('docs'),
-        publicPath: '/design-system'
+        publicPath: '/design-system/'
       }
     };
   }
