@@ -3,14 +3,18 @@ const path = require("path");
 module.exports = {
   webpack: (catalogWebpackConfig, {paths, dev, framework}) => {
     console.log(catalogWebpackConfig, paths, dev, framework);
-    return {
-      ...catalogWebpackConfig ,
-      output: {
-        ...catalogWebpackConfig.output,
-        path: path.resolve('docs'),
-        publicPath: '/design-system/'
+    return Object.assign(
+      catalogWebpackConfig,
+      {
+        output: Object.assign(
+          catalogWebpackConfig.output,
+          {
+            path: path.resolve('docs'),
+            publicPath: '/design-system/'
+          }
+        )
       }
-    };
+    );
   }
 }
 //
