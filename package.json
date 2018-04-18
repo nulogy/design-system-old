@@ -8,6 +8,6 @@
   },
   "scripts": {
     "start": "catalog start",
-    "build": "catalog build"
+    "build": "catalog build --out docs/ --public-url /design-system"
   }
 }
