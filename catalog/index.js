@@ -30,7 +30,6 @@ const config = {
   title: 'Nulogy Design System',
   logoSrc: nulogyLogoMark,
   useBrowserHistory: true,
-  // basePath: BASE_PATH,
   theme: {
     fontFamily: "'Rubik', serif",
     fontHeading: "'Rubik', serif",
