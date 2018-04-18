@@ -9,5 +9,8 @@
   "scripts": {
     "start": "catalog start",
     "build": "catalog build --out docs/ --public-url /design-system"
+  },
+  "devDependencies": {
+    "webpack-merge": "^4.1.2"
   }
 }
