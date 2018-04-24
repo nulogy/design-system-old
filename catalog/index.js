@@ -23,6 +23,15 @@ const pages = [
         content: pageLoader(() => import('./foundation/personas.md'))
       }
     ]
+  }, {
+    title: 'Getting Started',
+    pages: [
+      {
+        path: '/getting_started/designer',
+        title: 'Designer',
+        content: pageLoader(() => import('./getting_started/designer.md'))
+      }
+    ]
   }
 ];
 
