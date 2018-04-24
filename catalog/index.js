@@ -32,8 +32,31 @@ const pages = [
         content: pageLoader(() => import('./getting_started/designer.md'))
       }, {
         path: '/getting_started/developer',
-        title: 'Devdloper',
+        title: 'Developer',
         content: pageLoader(() => import('./getting_started/developer.md'))
+      }
+    ]
+  }, {
+    title: 'Guidelines',
+    pages: [
+      {
+        path: '/guidlines/localization',
+        title: 'Localization',
+        content: pageLoader(() => import('./guidlines/localization.md'))
+      }, {
+        path: '/guidlines/colour',
+        title: 'Colour',
+        content: pageLoader(() => import('./guidlines/colour.md'))
+      }
+    ]
+  }
+  , {
+    title: 'Components',
+    pages: [
+      {
+        path: '/components/button',
+        title: 'Button',
+        content: pageLoader(() => import('./components/button.md'))
       }
     ]
   }
