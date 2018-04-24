@@ -49,8 +49,7 @@ const pages = [
         content: pageLoader(() => import('./guidlines/colour.md'))
       }
     ]
-  }
-  , {
+  }, {
     title: 'Components',
     pages: [
       {
@@ -60,6 +59,25 @@ const pages = [
       }
     ]
   }
+  /*, {
+    title: 'Templates',
+    pages: [
+      {
+        path: '/templates/default',
+        title: 'Default',
+        content: pageLoader(() => import('./templates/default.md'))
+      }
+    ]
+  }, {
+    title: 'F.A.Q.',
+    pages: [
+      {
+        path: '/faq/default',
+        title: 'Default',
+        content: pageLoader(() => import('./faq/default.md'))
+      }
+    ]
+  }*/
 ];
 
 const config = {
