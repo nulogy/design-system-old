@@ -30,6 +30,10 @@ const pages = [
         path: '/getting_started/designer',
         title: 'Designer',
         content: pageLoader(() => import('./getting_started/designer.md'))
+      }, {
+        path: '/getting_started/developer',
+        title: 'Devdloper',
+        content: pageLoader(() => import('./getting_started/developer.md'))
       }
     ]
   }
