@@ -10,3 +10,5 @@ We're actively seeking a [Design Ops Coach](https://boards.greenhouse.io/nulogy/
 ## Stay tuned
 
 There isn't much here now, but we want to be as transparent as possible as we develop our thinking so [follow us on Github](https://github.com/nulogy/design-system) for updates.
+
+v1
