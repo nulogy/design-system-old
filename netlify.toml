@@ -1,6 +1,6 @@
 [build]
   command = "yarn build"
-  publish = "docs/"
+  publish = "dist/"
 
 # The following redirect is intended for use with most SPA's that handles routing internally.
 [[redirects]]

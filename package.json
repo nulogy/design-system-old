@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "catalog start",
-    "build": "catalog build --out docs/"
+    "build": "catalog build --out dist/"
   },
   "devDependencies": {
     "webpack-merge": "^4.1.2"
