@@ -43,14 +43,49 @@ const pages = [
     title: 'Guidelines',
     pages: [
       {
-        path: '/guidlines/localization',
-        title: 'Localization',
-        content: pageLoader(() => import('./guidlines/localization.md'))
+        path: '/guidlines/language',
+        title: 'Language',
+        content: pageLoader(() => import('./guidlines/language.md'))
       },
       {
         path: '/guidlines/colour',
         title: 'Colour',
         content: pageLoader(() => import('./guidlines/colour.md'))
+      },
+      {
+        path: '/guidlines/typography',
+        title: 'Typography',
+        content: pageLoader(() => import('./guidlines/typography.md'))
+      },
+      {
+        path: '/guidlines/motion',
+        title: 'Motion',
+        content: pageLoader(() => import('./guidlines/motion.md'))
+      },
+      {
+        path: '/guidlines/accessibility',
+        title: 'Accessibility',
+        content: pageLoader(() => import('./guidlines/accessibility.md'))
+      },
+      {
+        path: '/guidlines/iconography',
+        title: 'Iconography',
+        content: pageLoader(() => import('./guidlines/iconography.md'))
+      },
+    ]
+  },
+  {
+    title: 'Layout',
+    pages: [
+      {
+        path: '/layout/grid',
+        title: 'Grid',
+        content: pageLoader(() => import('./layout/grid.md'))
+      },
+      {
+        path: '/layout/depth',
+        title: 'Depth',
+        content: pageLoader(() => import('./layout/depth.md'))
       }
     ]
   },
@@ -64,25 +99,6 @@ const pages = [
       }
     ]
   }
-  /*, {
-    title: 'Templates',
-    pages: [
-      {
-        path: '/templates/default',
-        title: 'Default',
-        content: pageLoader(() => import('./templates/default.md'))
-      }
-    ]
-  }, {
-    title: 'F.A.Q.',
-    pages: [
-      {
-        path: '/faq/default',
-        title: 'Default',
-        content: pageLoader(() => import('./faq/default.md'))
-      }
-    ]
-  }*/
 ];
 
 const config = {
