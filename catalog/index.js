@@ -10,21 +10,6 @@ const pages = [
     content: pageLoader(() => import('../README.md'))
   },
   {
-    title: 'Foundation',
-    pages: [
-      {
-        path: '/foundation/principles',
-        title: 'Design Principles',
-        content: pageLoader(() => import('./foundation/principles.md'))
-      },
-      {
-        path: '/foundation/personas',
-        title: 'Our Users',
-        content: pageLoader(() => import('./foundation/personas.md'))
-      }
-    ]
-  },
-  {
     title: 'Getting Started',
     pages: [
       {
@@ -36,6 +21,21 @@ const pages = [
         path: '/getting_started/developer',
         title: 'Developer',
         content: pageLoader(() => import('./getting_started/developer.md'))
+      }
+    ]
+  },
+  {
+    title: 'Foundation',
+    pages: [
+      {
+        path: '/foundation/principles',
+        title: 'Design Principles',
+        content: pageLoader(() => import('./foundation/principles.md'))
+      },
+      {
+        path: '/foundation/personas',
+        title: 'Our Users',
+        content: pageLoader(() => import('./foundation/personas.md'))
       }
     ]
   },
