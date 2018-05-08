@@ -58,6 +58,21 @@ const pages = [
         content: pageLoader(() => import('./guidlines/typography.md'))
       },
       {
+        path: '/guidlines/iconography',
+        title: 'Iconography',
+        content: pageLoader(() => import('./guidlines/iconography.md'))
+      },
+      {
+        path: '/guidlines/grid',
+        title: 'Grid',
+        content: pageLoader(() => import('./guidlines/grid.md'))
+      },
+      {
+        path: '/guidlines/depth',
+        title: 'Depth',
+        content: pageLoader(() => import('./guidlines/depth.md'))
+      },
+      {
         path: '/guidlines/motion',
         title: 'Motion',
         content: pageLoader(() => import('./guidlines/motion.md'))
@@ -66,26 +81,6 @@ const pages = [
         path: '/guidlines/accessibility',
         title: 'Accessibility',
         content: pageLoader(() => import('./guidlines/accessibility.md'))
-      },
-      {
-        path: '/guidlines/iconography',
-        title: 'Iconography',
-        content: pageLoader(() => import('./guidlines/iconography.md'))
-      },
-    ]
-  },
-  {
-    title: 'Layout',
-    pages: [
-      {
-        path: '/layout/grid',
-        title: 'Grid',
-        content: pageLoader(() => import('./layout/grid.md'))
-      },
-      {
-        path: '/layout/depth',
-        title: 'Depth',
-        content: pageLoader(() => import('./layout/depth.md'))
       }
     ]
   },
