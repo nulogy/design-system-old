@@ -88,7 +88,12 @@ const pages = [
     title: 'Components',
     pages: [
       {
-        path: '/components/button',
+        path: '/components/tokens',
+        title: 'Design Tokens',
+        content: pageLoader(() => import('./components/tokens.md'))
+      },
+      {
+        path: '/components/tokens',
         title: 'Button',
         content: pageLoader(() => import('./components/button.md'))
       }
