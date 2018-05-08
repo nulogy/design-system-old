@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Catalog, pageLoader } from 'catalog';
-import nulogyLogoMark from '../images/nulogy_mark.svg';
+import nulogyLogoMark from './static/nulogy_mark.svg';
 
 const pages = [
   {
