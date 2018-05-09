@@ -30,9 +30,14 @@ export default [
         content: pageLoader(() => import('./foundation/principles.md'))
       },
       {
-        path: '/foundation/personas',
+        path: '/foundation/audience',
         title: 'Our Users',
-        content: pageLoader(() => import('./foundation/personas.md'))
+        content: pageLoader(() => import('./foundation/audience.md'))
+      },
+      {
+        path: '/foundation/environments',
+        title: 'Environments',
+        content: pageLoader(() => import('./foundation/environments.md'))
       }
     ]
   },
