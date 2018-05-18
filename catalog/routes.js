@@ -1,4 +1,5 @@
 import { pageLoader } from 'catalog';
+// import { Button } from '@nulogy/components';
 
 export default [
   {
@@ -97,7 +98,10 @@ export default [
       {
         path: '/components/button',
         title: 'Button',
-        content: pageLoader(() => import('./components/button.md'))
+        content: pageLoader(() => import('./components/button.md')),
+        imports: {
+          Button: require('@nulogy/components').Button
+        }
       }
     ]
   }

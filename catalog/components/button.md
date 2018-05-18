@@ -1,7 +1,3 @@
-Coming soon.
-
-```html
-<button>
-  Hello world
-</button>
+```react
+<Button>A Button</Button>
 ```
