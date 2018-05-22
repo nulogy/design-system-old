@@ -1,30 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Catalog, pageLoader } from 'catalog';
+import { Catalog } from 'catalog';
 import nulogyLogoMark from './static/nulogy_mark.svg';
-
-const pages = [
-  {
-    path: '/',
-    title: 'Welcome',
-    content: pageLoader(() => import('../README.md'))
-  },
-  {
-    title: 'Foundation',
-    pages: [
-      {
-        path: '/foundation/principles',
-        title: 'Design Principles',
-        content: pageLoader(() => import('./foundation/principles.md'))
-      },
-      {
-        path: '/foundation/personas',
-        title: 'Our Users',
-        content: pageLoader(() => import('./foundation/personas.md'))
-      }
-    ]
-  }
-];
+import pages from './routes';
 
 const config = {
   title: 'Nulogy Design System',
