@@ -2,7 +2,7 @@
   "name": "design-system",
   "description": "",
   "dependencies": {
-    "@nulogy/components": "^0.0.5",
+    "@nulogy/components": "^0.0.*",
     "catalog": "^3.5.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
