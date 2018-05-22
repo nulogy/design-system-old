@@ -8,26 +8,6 @@ export default [
     content: pageLoader(() => import('../README.md'))
   },
   {
-    title: 'Getting Started',
-    pages: [
-      {
-        path: '/getting_started/designer',
-        title: 'Designer',
-        content: pageLoader(() => import('./getting_started/designer.md'))
-      },
-      {
-        path: '/getting_started/writing',
-        title: 'Writing content and adding pages',
-        content: pageLoader(() => import('./getting_started/writing.md'))
-      },
-      {
-        path: '/getting_started/deploying',
-        title: 'Deploying to the web',
-        content: pageLoader(() => import('./getting_started/deploying.md'))
-      }
-    ]
-  },
-  {
     title: 'Foundation',
     pages: [
       {
@@ -109,5 +89,30 @@ export default [
         }
       }
     ]
-  }
+  },
+  {
+    title: 'Getting Started',
+    pages: [
+      {
+        path: '/getting_started/faq',
+        title: 'Frequently Asked Questions',
+        content: pageLoader(() => import('./getting_started/faq.md'))
+      },
+      {
+        path: '/getting_started/designer',
+        title: 'Designer',
+        content: pageLoader(() => import('./getting_started/designer.md'))
+      },
+      {
+        path: '/getting_started/writing',
+        title: 'Writing content and adding pages',
+        content: pageLoader(() => import('./getting_started/writing.md'))
+      },
+      {
+        path: '/getting_started/deploying',
+        title: 'Deploying to the web',
+        content: pageLoader(() => import('./getting_started/deploying.md'))
+      }
+    ]
+  },
 ];
