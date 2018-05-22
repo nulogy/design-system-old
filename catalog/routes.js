@@ -94,11 +94,6 @@ export default [
     title: 'Getting Started',
     pages: [
       {
-        path: '/getting_started/faq',
-        title: 'Frequently Asked Questions',
-        content: pageLoader(() => import('./getting_started/faq.md'))
-      },
-      {
         path: '/getting_started/designer',
         title: 'Designer',
         content: pageLoader(() => import('./getting_started/designer.md'))
@@ -112,6 +107,11 @@ export default [
         path: '/getting_started/deploying',
         title: 'Deploying to the web',
         content: pageLoader(() => import('./getting_started/deploying.md'))
+      },
+      {
+        path: '/getting_started/faq',
+        title: 'Frequently Asked Questions',
+        content: pageLoader(() => import('./getting_started/faq.md'))
       }
     ]
   },
