@@ -16,9 +16,14 @@ export default [
         content: pageLoader(() => import('./getting_started/designer.md'))
       },
       {
-        path: '/getting_started/developer',
-        title: 'Developer',
-        content: pageLoader(() => import('./getting_started/developer.md'))
+        path: '/getting_started/writing',
+        title: 'Writing content and adding pages',
+        content: pageLoader(() => import('./getting_started/writing.md'))
+      },
+      {
+        path: '/getting_started/deploying',
+        title: 'Deploying to the web',
+        content: pageLoader(() => import('./getting_started/deploying.md'))
       }
     ]
   },
