@@ -51,9 +51,9 @@ export default [
         content: pageLoader(() => import('./guidlines/iconography.md'))
       },
       {
-        path: '/guidlines/grid',
-        title: 'Grid',
-        content: pageLoader(() => import('./guidlines/grid.md'))
+        path: '/guidlines/layout',
+        title: 'Layout',
+        content: pageLoader(() => import('./guidlines/layout.md'))
       },
       {
         path: '/guidlines/depth',
