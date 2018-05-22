@@ -110,7 +110,7 @@ export default [
       },
       {
         path: '/getting_started/faq',
-        title: 'Frequently Asked Questions',
+        title: 'FAQ',
         content: pageLoader(() => import('./getting_started/faq.md'))
       }
     ]
