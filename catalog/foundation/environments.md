@@ -1,1 +1,5 @@
-<div><img src="/environments.png" /></div>
+
+```image
+plain: true
+src: "/environments.png"
+```
