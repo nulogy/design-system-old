@@ -12,5 +12,3 @@ We are the backbone of trust between suppliers and their brands. Predictable and
 
 ## Just enough information; always helpful
 Enterprise systems are burdened with overloaded pages. We seek to find the “contextual balance” where information is helpful providing decision support, recommendations and insights.
-
-## Adaptive Experience
